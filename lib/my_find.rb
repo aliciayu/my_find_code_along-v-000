@@ -5,6 +5,7 @@ def my_find(collection)
   while i < 100
     yield(1)
       i = 0 + 1
+      binding.pry
   end
 end
 
